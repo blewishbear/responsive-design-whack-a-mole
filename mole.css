@@ -1,1 +1,18 @@
 /* Write your CSS here. */
+.wgs {
+  position: relative;
+  height: 640px;
+  width: 482px;
+}
+
+.wgs__mole-head {
+  position: absolute;
+  height: 376px;
+  width: 356px;
+}
+
+.wgs__mole-hill {
+  position: absolute;
+  height: 220px;
+  width: 640px;
+}
