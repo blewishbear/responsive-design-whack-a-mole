@@ -4,15 +4,16 @@
   height: 482px;
   width: 640px;
   display: inline-block;
-
+  overflow: hidden;
 }
 
 .wgs__mole-head {
   position: absolute;
   height: 356px;
   width: 376px;
-
   left: 108.5px;
+  transition-property: margin-top;
+  transition-duration: 0.25s;
 }
 
 .wgs__mole-hill {
