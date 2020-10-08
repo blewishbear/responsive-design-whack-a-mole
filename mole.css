@@ -1,18 +1,27 @@
 /* Write your CSS here. */
 .wgs {
   position: relative;
-  height: 640px;
-  width: 482px;
+  height: 482px;
+  width: 640px;
+  display: inline-block;
+
 }
 
 .wgs__mole-head {
   position: absolute;
-  height: 376px;
-  width: 356px;
+  height: 356px;
+  width: 376px;
+
+  left: 108.5px;
 }
 
 .wgs__mole-hill {
   position: absolute;
   height: 220px;
   width: 640px;
+  bottom: 0;
+}
+
+.wgs__mole-head--hidden {
+  margin-top: 482px;
 }
